@@ -9,4 +9,5 @@ match:
     |mod_perl
     |GOZER/mod_perl
     |Apache2-ApacheMobileFilter
+    |Apache-Singleton
     )-v?\d|
