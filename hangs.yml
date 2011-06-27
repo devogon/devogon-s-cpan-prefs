@@ -13,5 +13,6 @@ match:
     |LWP-UserAgent-Determined   # hangs
     |RadiusPerl
     |Text-Pipe-Translate        # hangs at Lingua::Translate?
+    |Lingua-Translate
     )-v?\d|
 
