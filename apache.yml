@@ -13,5 +13,6 @@ match:
     |Apache-Auth-AuthMemCookie
     |Apache-AuthCookie
     |Apache2-AuthCookie
+    |Apache-Session
     |Apache-Singleton
     )-v?\d|
