@@ -14,5 +14,6 @@ match:
     |Apache-AuthCookie
     |Apache2-AuthCookie
     |Apache-Session
+    |EntityModel-Web-Apache2
     |Apache-Singleton
     )-v?\d|
