@@ -1,0 +1,11 @@
+--- 
+comment: |
+  Apache:: (all disabled) and apache
+disabled: 1
+match:
+  distribution: |
+    /(?x:
+    .^   # never matches, only purpose is to let things align nicely
+    |mod_perl
+    |GOZER/mod_perl
+    )-v?\d|

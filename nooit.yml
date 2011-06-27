@@ -1,0 +1,11 @@
+--- 
+comment: |
+  never test these
+disabled: 1
+match:
+  distribution: |
+    /(?x:
+    .^   # never matches, only purpose is to let things align nicely
+    |MySpam
+    )-v?\d|
+

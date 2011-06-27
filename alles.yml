@@ -1,0 +1,35 @@
+--- 
+comment: |
+  Things that cause my test environment to hang
+disabled: 1
+match:
+  distribution: |
+    /(?x:
+    .^   # never matches, only purpose is to let things align nicely
+    |MySpam
+    |Net-Curl-Simple
+    |XSDSQL_20110311
+    |Net-RabbitMQ
+    |LWP-UserAgent-POE
+    |Curses-Simp
+    |Proc-JobQueue
+    |Term-Menus-FromFile
+    |CGI-Ex
+    |Authen-Krb5-Admin
+    |POE-Component-Server-SimpleHTTP
+    |CGI-Application-Plugin-FormState
+    |CGI-Application-Plugin-LinkIntegrity
+    |POE-Component-Server-HTTP-KeepAlive
+    |Business-OnlinePayment-Exact
+    |Winamp-Control
+    |POE-Component-Server-NRPE
+    |POE-Loop-EV
+    |Debarnacle
+    |Crypt-Square
+    |Lingua-Translate
+    |Authen-PAM
+    |Debug-FaultAutoBT
+    |Crypt-Serpent
+    |ExtUtils-configPL
+    )-v?\d|
+

@@ -1,0 +1,12 @@
+--- 
+comment: |
+  Things that cause my test environment to hang
+disabled: 1
+match:
+  distribution: |
+    /(?x:
+    .^   # never matches, only purpose is to let things align nicely
+    |MySpam
+    |Plack-App-WrapApacheReq    # want apache src dir
+    )-v?\d|
+
