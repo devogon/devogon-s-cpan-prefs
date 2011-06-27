@@ -1,0 +1,6 @@
+distro prefs for perl 5 cpan smoke testing
+
+Put these files in .cpan/prefs to disable testing/installing these
+modules. there's nothing inherently wrong with any of the modules
+listed here, except that they prevent automatic functioning of cpan
+smoke testing.
