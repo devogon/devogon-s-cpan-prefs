@@ -12,5 +12,6 @@ match:
     |Net-RabbitMQ               # just hangs
     |LWP-UserAgent-Determined   # hangs
     |RadiusPerl
+    |Text-Pipe-Translate        # hangs at Lingua::Translate?
     )-v?\d|
 
