@@ -6,7 +6,8 @@ match:
   distribution: |
     /(?x:
     .^   # never matches, only purpose is to let things align nicely
-    |MySpam
+    |WWW-MySpace
     |Plack-App-WrapApacheReq    # want apache src dir
+    |Net-Curl-Simple
     )-v?\d|
 
