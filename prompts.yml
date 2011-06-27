@@ -8,7 +8,8 @@ match:
     .^   # never matches, only purpose is to let things align nicely
     |PApp
     |DBD-Pg
-    |Net-Syslogd            # Continue with tests? aaargh!
+    |Net-Syslogd            # Continue with tests? aaargh!o
+    |Net-SNMPTrapd          # Continue with tests? 
     |Inline-Octave
     |XSDSQL_20110616
     )-v?\d|
