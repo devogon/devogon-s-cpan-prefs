@@ -10,5 +10,7 @@ match:
     |Plack-App-WrapApacheReq    # want apache src dir
     |Net-Curl-Simplex
     |Net-RabbitMQ               # just hangs
+    |LWP-UserAgent-Determined   # hangs
+    |RadiusPerl
     )-v?\d|
 
