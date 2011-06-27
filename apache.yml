@@ -9,5 +9,9 @@ match:
     |mod_perl
     |GOZER/mod_perl
     |Apache2-ApacheMobileFilter
+    |Apache2-AuthCookie-DBI
+    |Apache-Auth-AuthMemCookie
+    |Apache-AuthCookie
+    |Apache2-AuthCookie
     |Apache-Singleton
     )-v?\d|
