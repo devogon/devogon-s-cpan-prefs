@@ -8,4 +8,5 @@ match:
     .^   # never matches, only purpose is to let things align nicely
     |mod_perl
     |GOZER/mod_perl
+    |Apache2-ApacheMobileFilter
     )-v?\d|
