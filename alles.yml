@@ -6,10 +6,7 @@ match:
   distribution: |
     /(?x:
     .^   # never matches, only purpose is to let things align nicely
-    |MySpam
-    |Net-Curl-Simple
     |XSDSQL_20110311
-    |Net-RabbitMQ
     |LWP-UserAgent-POE
     |Curses-Simp
     |Proc-JobQueue
