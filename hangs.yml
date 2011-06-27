@@ -14,5 +14,6 @@ match:
     |RadiusPerl
     |Text-Pipe-Translate        # hangs at Lingua::Translate?
     |Lingua-Translate
+    |MojoX-Run
     )-v?\d|
 
