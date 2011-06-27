@@ -8,6 +8,7 @@ match:
     .^   # never matches, only purpose is to let things align nicely
     |WWW-MySpace
     |Plack-App-WrapApacheReq    # want apache src dir
-    |Net-Curl-Simple
+    |Net-Curl-Simplex
+    |Net-RabbitMQ               # just hangs
     )-v?\d|
 
