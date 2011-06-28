@@ -16,5 +16,6 @@ match:
     |Text-Pipe-Translate        # hangs at Lingua::Translate?
     |Lingua-Translate
     |MojoX-Run
+    |CGI-Ex
     )-v?\d|
 
