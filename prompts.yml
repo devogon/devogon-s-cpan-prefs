@@ -14,5 +14,6 @@ match:
     |XSDSQL_20110616
     |Curses-Widgets         # interactive
     |Term-Screen-Uni        # multiple prompts
+    |Net-Ifconfig-Wrapper   # asks "is this correct?"
     )-v?\d|
 
