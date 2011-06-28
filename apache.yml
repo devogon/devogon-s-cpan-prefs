@@ -16,4 +16,5 @@ match:
     |Apache-Session
     |EntityModel-Web-Apache2
     |Apache-Singleton
+    |POE-Event-Message     # looks for apache directory
     )-v?\d|
