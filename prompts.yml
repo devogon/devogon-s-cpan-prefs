@@ -8,6 +8,7 @@ match:
     .^   # never matches, only purpose is to let things align nicely
     |PApp
     |DBD-Pg
+    |Algorithm-ClusterPoints
     |Net-Syslogd            # Continue with tests? aaargh!o
     |Net-SNMPTrapd          # Continue with tests? 
     |Inline-Octave
@@ -16,5 +17,5 @@ match:
     |Term-Screen-Uni        # multiple prompts
     |Net-Ifconfig-Wrapper   # asks "is this correct?"
     |Lingua-PT-Speaker      # Did not found PT1 phonemes. Please enter full path:
+    |Term-ScreenColor
     )-v?\d|
-
