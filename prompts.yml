@@ -12,5 +12,6 @@ match:
     |Net-SNMPTrapd          # Continue with tests? 
     |Inline-Octave
     |XSDSQL_20110616
+    |Curses-Widgets         # interactive
     )-v?\d|
 
