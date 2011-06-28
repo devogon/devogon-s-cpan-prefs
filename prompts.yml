@@ -15,5 +15,6 @@ match:
     |Curses-Widgets         # interactive
     |Term-Screen-Uni        # multiple prompts
     |Net-Ifconfig-Wrapper   # asks "is this correct?"
+    |Lingua-PT-Speaker      # Did not found PT1 phonemes. Please enter full path:
     )-v?\d|
 
