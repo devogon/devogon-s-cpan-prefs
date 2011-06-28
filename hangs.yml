@@ -1,4 +1,4 @@
---- 
+---
 comment: |
   Things that cause my test environment to hang
 disabled: 1
@@ -11,6 +11,7 @@ match:
     |Net-Curl-Simplex
     |Net-RabbitMQ               # just hangs
     |LWP-UserAgent-Determined   # hangs
+    |LWP-UserAgent-POE
     |RadiusPerl
     |Text-Pipe-Translate        # hangs at Lingua::Translate?
     |Lingua-Translate
