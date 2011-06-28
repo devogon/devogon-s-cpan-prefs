@@ -13,5 +13,6 @@ match:
     |Inline-Octave
     |XSDSQL_20110616
     |Curses-Widgets         # interactive
+    |Term-Screen-Uni        # multiple prompts
     )-v?\d|
 
