@@ -4,20 +4,20 @@ comment: |
 disabled: 1
 match:
   distribution: |
-    (?x:
+    /(?x:
     .^   # never matches, only purpose is to let things align nicely
-    |PHRED/mod_perl-2.0.5
-    |GOZER/mod_perl-1.31
-    |IFUSCHINI/Apache2-ApacheMobileFilter-2.21
-    |MATISSE/Apache2-AuthCookieDBI-2.14
-    |PMAKHOLM/Plack-App-WrapApacheReq-0.01
-    |PIERS/Apache-Auth-AuthMemCookie-0.02
-    |KAZEBURO/Apache2-Filter-GoogleAnalytics-0.01
-    |MSCHOUT/Apache-AuthCookie-3.18
-    |CHORNY/Apache-Session-1.89
-    |DROLSKY/Silki-0.27
-    |TEAM/EntityModel-Web-Apache2-0.001
-    |MSCHOUT/Apache-Singleton-0.13
-    |CCOBB/POE-Event-Message-0.11
-    |AJGB/Apache2-Layer-1.103360
-    )|
+    |mod_perl
+    |Apache2-ApacheMobileFilter
+    |Apache2-AuthCookieDBI
+    |Plack-App-WrapApacheReq
+    |Apache-Auth-AuthMemCookie
+    |Apache2-Filter-GoogleAnalytics
+    |Apache-AuthCookie
+    |Apache-Session
+    |Silki
+    |EntityModel-Web-Apache2
+    |Apache-Singleton
+    |POE-Event-Message
+    |Test-Environment
+    |Apache2-Layer
+    )-v?\d|
