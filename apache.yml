@@ -11,6 +11,7 @@ match:
     |Apache2-ApacheMobileFilter
     |Apache2-AuthCookie-DBI
     |Apache-Auth-AuthMemCookie
+    |Apache2-Filter-GoogleAnalytics # looks for apache dir
     |Apache-AuthCookie
     |Apache2-AuthCookie
     |Apache-Session
