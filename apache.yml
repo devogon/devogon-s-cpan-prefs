@@ -15,6 +15,7 @@ match:
     |Apache-AuthCookie
     |Apache2-AuthCookie
     |Apache-Session
+    |Silki # looking for apache dir
     |EntityModel-Web-Apache2
     |Apache-Singleton
     |POE-Event-Message     # looks for apache directory
