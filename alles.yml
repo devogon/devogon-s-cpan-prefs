@@ -49,6 +49,11 @@ match:
   distribution: "^JALDHAR/DateTime-Indic-0.1"
 disabled: 1
 ---
+comment: "Did not found PT1 phonemes. Please enter full path:"
+match:
+  distribution: "^A/AM/AMBS/Lingua/Lingua-PT-Speaker-0.10"
+disabled: 1
+---
 comment: "just hangs"
 match:
   distribution: "^MANOWAR/RadiusPerl-0.20"
