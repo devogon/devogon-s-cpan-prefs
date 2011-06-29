@@ -6,18 +6,20 @@ match:
   distribution: |
     /(?x:
     .^   # never matches, only purpose is to let things align nicely
-    |PApp
-    |DBD-Pg
-    |Algorithm-ClusterPoints
-    |Authen-PAM
-    |Net-Syslogd
-    |Net-SNMPTrapd
-    |Inline-Octave
-    |XSDSQL_20110616
-    |Curses-Widgets
-    |Term-Screen-Uni
-    |Net-Ifconfig-Wrapper
-    |Lingua-PT-Speaker
-    |Term-ScreenColor
-    |Net-FTPSSL
-    )-v?\d|
+    |MLEHMANN/PApp-1.45
+    |TURNSTEP/DBD-Pg-2.18.1
+    |SALVA/Algorithm-ClusterPoints-0.08
+    |NIKIP/Authen-PAM-0.16
+    |VINSWORLD/Net-Syslogd-0.04
+    |VINSWORLD/Net-SNMPTrapd-0.04
+    |AADLER/Inline-Octave-0.31
+    |BLX/XSDSQL_20110616
+    |BLX/XSDSQL_20110611
+    |CORLISS/CursesWidgets-1.997
+    |TPABA/Term-Screen-Uni-0.04
+    |TPABA/Net-Ifconfig-Wrapper-0.11
+    |AMBS/Lingua-PT-Speaker-0.10
+    |BLX/XSDSQL_20110311
+    |RUITTENB/Term-ScreenColor-1.20
+    |CLEACH/Net-FTPSSL-0.17
+    )|
