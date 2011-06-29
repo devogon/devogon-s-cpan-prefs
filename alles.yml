@@ -29,28 +29,19 @@ match:
     |ExtUtils-configPL
     )-v?\d|
 ---
-comment: "(is a dev version) Directory name:"
+comment: "(is a dev version) asks for Directory name:"
 match:
   distribution: "^TURNERMM/HTML-WikiConverter-DokuWikiFCK-0.32.10-Sep_09-08_10"
-pl:
-  expect:
-    - "Directory Name:"
 disabled: 1
 ---
 comment: "wants database connect string"
 match:
   distribution: "^BLX/XSDSQL_20110611"
-pl:
-  expect:
-    - "enter database connect string in form dbtype:<user>/<password>@<dbname>[:<host>[:<port>]]"
 disabled: 1
 ---
 comment: "wants database connect string"
 match:
   distribution: "^BLX/XSDSQL_20110311"
-pl:
-  expect:
-    - "enter database connect string in form dbtype:<user>/<password>@<dbname>[:<host>[:<port>]]"
 disabled: 1
 ---
 comment: "wants papp library location"
@@ -61,4 +52,14 @@ disabled: 1
 comment: "hangs after: t/60setup_db-articles.t ... ok"
 match:
   distribution: "^BARBIE/CPAN-Testers-WWW-Reports-Mailer-0.27"
+disabled: 1
+---
+comment: "hangs"
+match:
+  distribution: "^RHANDOM/CGI-Ex-2.32"
+disabled: 1
+---
+comment: "have to 'press enter to execute this file'"
+match:
+  distribution: "^MJD/Devel-Trace-0.11"
 disabled: 1
