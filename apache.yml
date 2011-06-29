@@ -15,8 +15,9 @@ match:
     |Apache-AuthCookie
     |Apache2-AuthCookie
     |Apache-Session
-    |Silki # looking for apache dir
+    |Silki
     |EntityModel-Web-Apache2
     |Apache-Singleton
     |POE-Event-Message
+    |Apache2-Layer
     )-v?\d|
