@@ -10,6 +10,7 @@ match:
     |GOZER/mod_perl
     |Apache2-ApacheMobileFilter
     |Apache2-AuthCookie-DBI
+    |Plack-App-WrapApacheReq
     |Apache-Auth-AuthMemCookie
     |Apache2-Filter-GoogleAnalytics
     |Apache-AuthCookie
