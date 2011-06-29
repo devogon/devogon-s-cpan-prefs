@@ -11,12 +11,12 @@ match:
     |Apache2-ApacheMobileFilter
     |Apache2-AuthCookie-DBI
     |Apache-Auth-AuthMemCookie
-    |Apache2-Filter-GoogleAnalytics # looks for apache dir
+    |Apache2-Filter-GoogleAnalytics
     |Apache-AuthCookie
     |Apache2-AuthCookie
     |Apache-Session
     |Silki # looking for apache dir
     |EntityModel-Web-Apache2
     |Apache-Singleton
-    |POE-Event-Message     # looks for apache directory
+    |POE-Event-Message
     )-v?\d|
