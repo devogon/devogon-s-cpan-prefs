@@ -9,6 +9,7 @@ match:
     |PApp
     |DBD-Pg
     |Algorithm-ClusterPoints
+    |Authen-PAM             # wants password to install during tests
     |Net-Syslogd            # Continue with tests? aaargh!o
     |Net-SNMPTrapd          # Continue with tests? 
     |Inline-Octave
