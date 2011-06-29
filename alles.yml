@@ -29,7 +29,7 @@ match:
     |ExtUtils-configPL
     )-v?\d|
 ---
-comment: "Directory name:"
+comment: "(is a dev version) Directory name:"
 match:
   distribution: "^TURNERMM/HTML-WikiConverter-DokuWikiFCK-0.32.10-Sep_09-08_10"
 pl:
