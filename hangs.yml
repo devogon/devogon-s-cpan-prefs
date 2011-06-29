@@ -8,7 +8,7 @@ match:
     .^   # never matches, only purpose is to let things align nicely
     |WWW-MySpace
     |Plack-App-WrapApacheReq
-    |Net-Curl-Simplex
+    |Net-Curl-Simple
     |Net-RabbitMQ
     |LWP-UserAgent-Determined
     |LWP-UserAgent-POE
