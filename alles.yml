@@ -34,6 +34,26 @@ match:
   distribution: "^TURNERMM/HTML-WikiConverter-DokuWikiFCK-0.32.10-Sep_09-08_10"
 disabled: 1
 ---
+comment: "libqdbm link type [1]"
+match:
+  distribution: "^YAMATO/QDBM_File-1.12"
+disabled: 1
+---
+comment: "Continue with tests? what kind of question is this?"
+match:
+  distribution: "^VINSWORLD/Net-Syslogd-0.04"
+disabled: 1
+---
+comment: "just hangs"
+match:
+  distribution: "^MANOWAR/RadiusPerl-0.20"
+disabled: 1
+---
+comment: "Please type ready when that is done: [No]. almost impossible to kill"
+match:
+  distribution: "^LedgerSMB-API-0.04a"
+disabled: 1
+---
 comment: "wants database connect string"
 match:
   distribution: "^BLX/XSDSQL_20110611"
