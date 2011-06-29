@@ -51,7 +51,7 @@ disabled: 1
 ---
 comment: "Did not found PT1 phonemes. Please enter full path:"
 match:
-  distribution: "^A/AM/AMBS/Lingua/Lingua-PT-Speaker-0.10"
+  distribution: "^AMBS/Lingua/Lingua-PT-Speaker-0.10"
 disabled: 1
 ---
 comment: "just hangs"
