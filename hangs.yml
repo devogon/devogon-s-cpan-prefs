@@ -19,5 +19,5 @@ match:
     |BFG/MojoX-Run-0.15
     |RHANDOM/CGI-Ex-2.32
     |LEONT/Signal-More-0.002
-    )-v?\d|
+    )|
 
