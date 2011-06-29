@@ -6,7 +6,6 @@ match:
   distribution: |
     /(?x:
     .^   # never matches, only purpose is to let things align nicely
-    |XSDSQL_20110311
     |LWP-UserAgent-POE
     |Curses-Simp
     |Proc-JobQueue
@@ -29,4 +28,37 @@ match:
     |Crypt-Serpent
     |ExtUtils-configPL
     )-v?\d|
-
+---
+comment: "Directory name:"
+match:
+  distribution: "^TURNERMM/HTML-WikiConverter-DokuWikiFCK-0.32.10-Sep_09-08_10"
+pl:
+  expect:
+    - "Directory Name:"
+disabled: 1
+---
+comment: "wants database connect string"
+match:
+  distribution: "^BLX/XSDSQL_20110611"
+pl:
+  expect:
+    - "enter database connect string in form dbtype:<user>/<password>@<dbname>[:<host>[:<port>]]"
+disabled: 1
+---
+comment: "wants database connect string"
+match:
+  distribution: "^BLX/XSDSQL_20110311"
+pl:
+  expect:
+    - "enter database connect string in form dbtype:<user>/<password>@<dbname>[:<host>[:<port>]]"
+disabled: 1
+---
+comment: "wants papp library location"
+match:
+  distribution: "^MLEHMANN/Term-Menus-FromFile-1.0.0"
+disabled: 1
+---
+comment: "hangs after: t/60setup_db-articles.t ... ok"
+match:
+  distribution: "^BARBIE/CPAN-Testers-WWW-Reports-Mailer-0.27"
+disabled: 1
