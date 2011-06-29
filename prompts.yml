@@ -9,15 +9,15 @@ match:
     |PApp
     |DBD-Pg
     |Algorithm-ClusterPoints
-    |Authen-PAM             # wants password to install during tests
-    |Net-Syslogd            # Continue with tests? aaargh!o
-    |Net-SNMPTrapd          # Continue with tests? 
+    |Authen-PAM
+    |Net-Syslogd
+    |Net-SNMPTrapd
     |Inline-Octave
     |XSDSQL_20110616
-    |Curses-Widgets         # interactive
-    |Term-Screen-Uni        # multiple prompts
-    |Net-Ifconfig-Wrapper   # asks "is this correct?"
-    |Lingua-PT-Speaker      # Did not found PT1 phonemes. Please enter full path:
+    |Curses-Widgets
+    |Term-Screen-Uni
+    |Net-Ifconfig-Wrapper
+    |Lingua-PT-Speaker
     |Term-ScreenColor
     |Net-FTPSSL
     )-v?\d|
