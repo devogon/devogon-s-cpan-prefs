@@ -44,6 +44,11 @@ match:
   distribution: "^VINSWORLD/Net-Syslogd-0.04"
 disabled: 1
 ---
+comment: "deep recursion in Memoize"
+match:
+  distribution: "^JALDHAR/DateTime-Indic-0.1"
+disabled: 1
+---
 comment: "just hangs"
 match:
   distribution: "^MANOWAR/RadiusPerl-0.20"
