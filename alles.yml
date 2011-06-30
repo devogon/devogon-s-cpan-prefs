@@ -156,5 +156,5 @@ disabled: 1
 ---
 comment: "hangs"
 match:
-  distribution: "^OALDERS/WWW-MySpace-FriendAdder-0.16"
+  distribution: "^OALDERS/WWW-Myspace-FriendAdder-0.16"
 disabled: 1
