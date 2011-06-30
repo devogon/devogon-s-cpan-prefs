@@ -118,4 +118,9 @@ comment: "looks for apache directory"
 match:
   distribution: "^JETEVE/Apache2-REST-0.07"
 disabled: 1
-
+---
+comment: "needs absolute pathname to wiki..."
+match:
+  distribution: "^TURNERMM/HTML-WikiConverter-DokuWikiFCK-0.32.10"
+disabled: 1
+---
