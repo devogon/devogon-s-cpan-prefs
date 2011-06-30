@@ -153,8 +153,3 @@ comment: "looking for apache dir"
 match:
   distribution: "^RYANGIES/perl-Apache2-LogUtil-00.01001"
 disabled: 1
----
-comment: "hangs"
-match:
-  distribution: "^OALDERS/WWW-Myspace-FriendAdder-0.16"
-disabled: 1
