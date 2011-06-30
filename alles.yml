@@ -148,3 +148,8 @@ comment: "requests path to octave"
 match:
   distribution: "^AADLER/Inline-Octave-0.31"
 disabled: 1
+---
+comment: "looking for apache dir"
+match:
+  distribution: "^RYANGIES/perl-Apache2-LogUtil-00.01001"
+disabled: 1
