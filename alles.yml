@@ -138,3 +138,8 @@ comment: "hangs"
 match:
   distribution: "^PIP/Curses-Simp-1.4.A8UG1gG"
 disabled: 1
+---
+comment: "wants apache directory"
+match:
+  distribution: "^DAMOG/Apache2-Archive-0.2"
+disabled: 1
