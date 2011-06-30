@@ -39,6 +39,11 @@ match:
   distribution: "^CORLISS/CursesWidgets-1.997"
 disabled: 1
 ---
+comment: "wants location of pg_config"
+match:
+  distribution: "^TURNSTEP/DBD-Pg-2.18.1"
+disabled: 1
+---
 comment: "libqdbm link type [1]"
 match:
   distribution: "^YAMATO/QDBM_File-1.12"
