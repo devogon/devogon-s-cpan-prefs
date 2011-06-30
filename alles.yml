@@ -34,6 +34,11 @@ match:
   distribution: "^TURNERMM/HTML-WikiConverter-DokuWikiFCK-0.32.10-Sep_09-08_10"
 disabled: 1
 ---
+comment: "interactive"
+match:
+  distribution: "^CORLISS/CursesWidgets-1.997"
+disabled: 1
+---
 comment: "libqdbm link type [1]"
 match:
   distribution: "^YAMATO/QDBM_File-1.12"
@@ -93,3 +98,10 @@ comment: "have to 'press enter to execute this file'"
 match:
   distribution: "^MJD/Devel-Trace-0.11"
 disabled: 1
+---
+comment: "silki always wants the apache dir"
+match:
+  distribution: "^DROLSKY/Silki-0.27"
+disabled: 1
+---
+
