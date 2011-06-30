@@ -104,7 +104,7 @@ match:
   distribution: "^RHANDOM/CGI-Ex-2.32"
 disabled: 1
 ---
-comment: "have to 'press enter to execute this file'"
+comment: "have to press enter to execute this file"
 match:
   distribution: "^MJD/Devel-Trace-0.11"
 disabled: 1
