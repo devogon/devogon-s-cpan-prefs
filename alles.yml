@@ -143,3 +143,8 @@ comment: "wants apache directory"
 match:
   distribution: "^DAMOG/Apache2-Archive-0.2"
 disabled: 1
+---
+comment: "requests path to octave"
+match:
+  distribution: "^AADLER/Inline-Octave-0.31"
+disabled: 1
