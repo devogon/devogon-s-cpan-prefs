@@ -44,6 +44,11 @@ match:
   distribution: "^CORLISS/CursesWidgets-1.997"
 disabled: 1
 ---
+comment: "Directory to install scripts: "
+match:
+  distribution: "^/HDIAS/Mail-Salsa-0.15"
+disabled: 1
+---
 comment: "wants location of pg_config"
 match:
   distribution: "^TURNSTEP/DBD-Pg-2.18.1"
