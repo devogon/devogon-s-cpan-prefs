@@ -38,6 +38,13 @@ comment: "interactive"
 match:
   distribution: "^SCOTTW/Term-Twiddle-2.71"
 disabled: 1
+pl:
+  expect: "Do you want to run the (brief but interactive) tests? [y]:"
+---
+comment: "wants ENTER to continue!"
+match:
+  distribution: "^MSROTH/Db-Documentum-1.64"
+disabled: 1
 ---
 comment: "Router hostname or ip address:"
 match:
