@@ -34,6 +34,11 @@ match:
   distribution: "^TURNERMM/HTML-WikiConverter-DokuWikiFCK-0.32.10-Sep_09-08_10"
 disabled: 1
 ---
+comment: "interactive"
+match:
+  distribution: "^SCOTTW/Term-Twiddle-2.71"
+disabled: 1
+---
 comment: "Router hostname or ip address:"
 match:
   distribution: "^VINSWORLD/Cisco-Management-0.04"
