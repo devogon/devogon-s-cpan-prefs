@@ -34,9 +34,12 @@ match:
   distribution: "^JESUS/Net-RabbitMQ-0.2.0"
 disabled: 1
 ---
-comment: "crashes test env"
+comment: |
+
+  crashes test env
+
 match:
-  distribution: "^VIZDOM/DBD-JDBC-0.71"
+  distribution: 'VIZDOM/DBD-JDBC-0.71'
 disabled: 1
 ---
 comment: "(is a dev version) asks for Directory name:"
