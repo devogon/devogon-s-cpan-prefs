@@ -83,7 +83,10 @@ match:
   distribution: "^TURNSTEP/DBD-Pg-2.99.9_2"
 disabled: 1
 ---
-comment: "hangs"
+comment: |
+
+  hangs
+
 match:
   distribution: 'RURBAN/B-Debugger-\d'
 disabled: 1
@@ -91,6 +94,14 @@ disabled: 1
 comment: "libqdbm link type [1]"
 match:
   distribution: "^YAMATO/QDBM_File-1.12"
+disabled: 1
+---
+comment: |
+
+  prompts for server
+
+match:
+  distribution: 'EESTABROO/IMAP-Admin-1.6.7'
 disabled: 1
 ---
 comment: "Continue with tests? what kind of question is this?"
