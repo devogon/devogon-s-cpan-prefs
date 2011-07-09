@@ -35,6 +35,12 @@ match:
 disabled: 1
 ---
 comment: |
+  looking for apache src dir
+match:
+  distribution: 'MSCHOUT/Apache-Profiler-\d'
+disabled: 1
+---
+comment: |
   hangs
 match:
   distribution: 'MARANEL/Flickr-Embed-\d'
