@@ -38,6 +38,14 @@ match:
 disabled: 1
 ---
 comment: |
+  
+  hangs
+
+match:
+  distribution: 'SWALTERS/Acme-RPC-0.01'
+disabled: 1
+---
+comment: |
 
   hangs
 
