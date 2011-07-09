@@ -58,9 +58,12 @@ disabled: 1
 pl:
   expect: "Press ENTER to continue."
 ---
-comment: "Router hostname or ip address:"
+comment: |
+
+  prompts. "Router hostname or ip address:"
+
 match:
-  distribution: "^VINSWORLD/Cisco-Management-0.04"
+  distribution: 'VINSWORLD/Cisco-Management-\d'
 disabled: 1
 ---
 comment: "interactive"
