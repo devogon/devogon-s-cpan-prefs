@@ -29,13 +29,18 @@ match:
     |ExtUtils-configPL
     )-v?\d|
 ---
-comment: "hangs"
+comment: |
+
+  hangs
+
 match:
-  distribution: "^JESUS/Net-RabbitMQ-0.2.0"
+  distribution: 'JESUS/Net-RabbitMQ-0.2.0'
 disabled: 1
 ---
 comment: |
+
   looking for apache src dir
+
 match:
   distribution: 'MSCHOUT/Apache-Profiler-\d'
 disabled: 1
@@ -128,9 +133,12 @@ match:
   distribution: 'EESTABROO/IMAP-Admin-1.6.7'
 disabled: 1
 ---
-comment: "Continue with tests? what kind of question is this?"
+comment: |
+
+  Continue with tests? what kind of question is this?
+
 match:
-  distribution: "^VINSWORLD/Net-Syslogd-0.04"
+  distribution: 'VINSWORLD/Net-Syslogd-0.04'
 disabled: 1
 ---
 comment: "deep recursion in Memoize"
