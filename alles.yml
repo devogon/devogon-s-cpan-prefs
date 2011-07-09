@@ -170,9 +170,12 @@ match:
   distribution: "^AMBS/Lingua/Lingua-PT-Speaker-0.10"
 disabled: 1
 ---
-comment: "just hangs"
+comment: |
+
+  just hangs
+
 match:
-  distribution: "^MANOWAR/RadiusPerl-0.20"
+  distribution: 'MANOWAR/RadiusPerl-0.20'
 disabled: 1
 ---
 comment: "Please type ready when that is done: [No]. almost impossible to kill"
