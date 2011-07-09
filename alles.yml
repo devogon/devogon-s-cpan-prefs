@@ -180,9 +180,12 @@ match:
   distribution: "^HESCO/LedgerSMB-API-0.04a"
 disabled: 1
 ---
-comment: "wants database connect string"
+comment: |
+
+  wants database connect string
+
 match:
-  distribution: "^BLX/XSDSQL_20110611"
+  distribution: 'BLX/XSDSQL_\d'
 disabled: 1
 ---
 comment: "wants database connect string"
@@ -246,9 +249,12 @@ match:
   distribution: "^DAMOG/Apache2-Archive-0.2"
 disabled: 1
 ---
-comment: "requests path to octave"
+comment: |
+
+  requests path to octave
+
 match:
-  distribution: "^AADLER/Inline-Octave-0.31"
+  distribution: 'AADLER/Inline-Octave-0.31
 disabled: 1
 ---
 comment: "looking for apache dir"
