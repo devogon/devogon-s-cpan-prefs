@@ -160,9 +160,12 @@ match:
   distribution: 'BARBIE/CPAN-Testers-WWW-Reports-Mailer-\d'
 disabled: 1
 ---
-comment: "hangs"
+comment: |
+
+  hangs
+
 match:
-  distribution: "^RHANDOM/CGI-Ex-2.32"
+  distribution: 'RHANDOM/CGI-Ex-2.32'
 disabled: 1
 ---
 comment: "have to press enter to execute this file"
