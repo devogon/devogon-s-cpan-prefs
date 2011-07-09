@@ -43,6 +43,12 @@ disabled: 1
 comment: |
   hangs
 match:
+  distribution: 'SDEN/WebService-FuncNet-\d'
+disabled: 1
+---
+comment: |
+  hangs
+match:
   distribution: 'MARANEL/Flickr-Embed-\d'
 disabled: 1
 ---
