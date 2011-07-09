@@ -149,9 +149,12 @@ match:
   distribution: "^MLEHMANN/Term-Menus-FromFile-1.0.0"
 disabled: 1
 ---
-comment: "hangs after: t/60setup_db-articles.t ... ok"
+comment: |
+
+  hangs after: t/60setup_db-articles.t ... ok
+
 match:
-  distribution: "^BARBIE/CPAN-Testers-WWW-Reports-Mailer-0.27"
+  distribution: 'BARBIE/CPAN-Testers-WWW-Reports-Mailer-\d'
 disabled: 1
 ---
 comment: "hangs"
