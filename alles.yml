@@ -85,7 +85,7 @@ disabled: 1
 ---
 comment: "hangs"
 match:
-  distribution: "^RURBAN/B-Debugger-0.13"
+  distribution: 'RURBAN/B-Debugger-\d'
 disabled: 1
 ---
 comment: "libqdbm link type [1]"
