@@ -35,6 +35,12 @@ match:
 disabled: 1
 ---
 comment: |
+  hangs
+match:
+  distribution: 'MARANEL/Flickr-Embed-\d'
+disabled: 1
+---
+comment: |
 
   crashes test env
 
