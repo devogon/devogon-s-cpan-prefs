@@ -243,6 +243,7 @@ match:
     ^(?x:
       .*/Xiaol-\d
       |.*/Curses-Simp-\d
+      |.*/Net-Curl-Simple-\d
       |.*/POE-Component-Server-HTTP-KeepAlive-\d
       |.*/Mail-Sender-\d
       |.*/B-Debugger-\d
