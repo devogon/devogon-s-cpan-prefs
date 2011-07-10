@@ -37,6 +37,12 @@ match:
 disabled: 1
 ---
 comment: |
+  prompts for Google API key
+match:
+  distribution: 'ASCOPE/Net-Google-1.0'
+disabled: 1
+---
+comment: |
   
   hangs
 
