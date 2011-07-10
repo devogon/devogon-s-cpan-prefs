@@ -247,24 +247,28 @@ match:
   distribution: 'RHANDOM/CGI-Ex-2.32'
 disabled: 1
 ---
-comment: "have to press enter to execute this file"
+comment: |
+  have to press enter to execute this file
 match:
-  distribution: "^MJD/Devel-Trace-0.11"
+  distribution: MJD/Devel-Trace-0.11'
 disabled: 1
 ---
-comment: "silki always wants the apache dir"
+comment: |
+  silki always wants the apache dir
 match:
-  distribution: "^DROLSKY/Silki-0.27"
+  distribution: 'DROLSKY/Silki-0.27'
 disabled: 1
 ---
-comment: "looks for apache directory"
+comment: |
+  looks for apache directory
 match:
-  distribution: "^JETEVE/Apache2-REST-0.07"
+  distribution: 'JETEVE/Apache2-REST-0.07'
 disabled: 1
 ---
-comment: "needs absolute pathname to wiki..."
+comment: |
+  needs absolute pathname to wiki...
 match:
-  distribution: "^TURNERMM/HTML-WikiConverter-DokuWikiFCK-0.32.10"
+  distribution: 'TURNERMM/HTML-WikiConverter-DokuWikiFCK-0.32.10'
 disabled: 1
 ---
 comment: |
