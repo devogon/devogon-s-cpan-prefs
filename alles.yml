@@ -15,7 +15,6 @@ match:
     |POE-Component-Server-SimpleHTTP
     |CGI-Application-Plugin-FormState
     |CGI-Application-Plugin-LinkIntegrity
-    |POE-Component-Server-HTTP-KeepAlive
     |Business-OnlinePayment-Exact
     |Winamp-Control
     |POE-Component-Server-NRPE
@@ -34,7 +33,7 @@ comment: |
   hangs
 
 match:
-  distribution: 'GWYN/POE-Component-Server-HTTP-KeepAlive-\d'
+  distribution: 'GWYN/POE-Component-Server-HTTP-KeepAlive-0.0302'
 disabled: 1
 ---
 comment: |
