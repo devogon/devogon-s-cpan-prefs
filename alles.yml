@@ -260,6 +260,7 @@ match:
       ./Inline-Octave-\d
       |.*/DBIx-MyParse-\d
       |.*/Cisco-Management-\d
+      |.*/XSDSQL_\d
       )|
 disabled: 1
 ---
