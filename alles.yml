@@ -10,7 +10,6 @@ match:
     |Curses-Simp
     |Proc-JobQueue
     |Term-Menus-FromFile
-    |CGI-Ex
     |Authen-Krb5-Admin
     |POE-Component-Server-SimpleHTTP
     |CGI-Application-Plugin-FormState
@@ -190,14 +189,6 @@ match:
 disabled: 1
 ---
 comment: |
-
-  hangs
-
-match:
-  distribution: 'RHANDOM/CGI-Ex-2.32'
-disabled: 1
----
-comment: |
   have to press enter to execute this file
 match:
   distribution: 'MJD/Devel-Trace-0.11'
@@ -243,6 +234,7 @@ match:
     ^(?x:
       .*/Xiaol-\d
       |.*/Curses-Simp-\d
+      |.*/CGI-Ex-\d
       |.*/Net-Curl-Simple-\d
       |.*/POE-Component-Server-HTTP-KeepAlive-\d
       |.*/Mail-Sender-\d
