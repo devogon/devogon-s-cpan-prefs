@@ -103,16 +103,18 @@ match:
   distribution: "^TURNERMM/HTML-WikiConverter-DokuWikiFCK-0.32.10-Sep_09-08_10"
 disabled: 1
 ---
-comment: "interactive"
+comment: |
+  interactive
 match:
-  distribution: "^SCOTTW/Term-Twiddle-2.71"
+  distribution: 'SCOTTW/Term-Twiddle-2.71'
 disabled: 1
 pl:
   expect: "Do you want to run the (brief but interactive) tests? [y]:"
 ---
-comment: "wants ENTER to continue!"
+comment: |
+  wants ENTER to continue!
 match:
-  distribution: "^MSROTH/Db-Documentum-1.64"
+  distribution: 'MSROTH/Db-Documentum-1.64'
 disabled: 1
 pl:
   expect: "Press ENTER to continue."
@@ -125,29 +127,33 @@ match:
   distribution: 'VINSWORLD/Cisco-Management-\d'
 disabled: 1
 ---
-comment: "interactive"
+comment: |
+  interactive
 match:
-  distribution: "^CORLISS/CursesWidgets-1.997"
+  distribution: 'CORLISS/CursesWidgets-1.997'
 disabled: 1
 ---
 comment: "Directory to install scripts: "
 match:
-  distribution: "^/HDIAS/Mail-Salsa-0.15"
+  distribution: 'HDIAS/Mail-Salsa-0.15'
 disabled: 1
 ---
-comment: "wants location of pg_config"
+comment: |
+  wants location of pg_config
 match:
-  distribution: "^TURNSTEP/DBD-Pg-2.18.1"
+  distribution: 'TURNSTEP/DBD-Pg-2.18.1'
 disabled: 1
 ---
-comment: "wants location of pg_config"
+comment: |
+  wants location of pg_config
 match:
-  distribution: "^TURNSTEP/DBD-Pg-2.99.9_2"
+  distribution: 'TURNSTEP/DBD-Pg-2.99.9_2'
 disabled: 1
 ---
-comment: "wants location of pg_config"
+comment: |
+  wants location of pg_config
 match:
-  distribution: "^TURNSTEP/DBD-Pg-2.99.9_1"
+  distribution: 'TURNSTEP/DBD-Pg-2.99.9_1'
 disabled: 1
 ---
 comment: |
@@ -221,14 +227,16 @@ match:
   distribution: "^BLX/XSDSQL_20110311"
 disabled: 1
 ---
-comment: "wants database connect string"
+comment: |
+  wants database connect string
 match:
-  distribution: "^BLX/XSDSQL_20110616"
+  distribution: 'BLX/XSDSQL_20110616'
 disabled: 1
 ---
-comment: "wants papp library location"
+comment: |
+  wants papp library location
 match:
-  distribution: "^MLEHMANN/Term-Menus-FromFile-1.0.0"
+  distribution: 'MLEHMANN/Term-Menus-FromFile-1.0.0'
 disabled: 1
 ---
 comment: |
@@ -250,7 +258,7 @@ disabled: 1
 comment: |
   have to press enter to execute this file
 match:
-  distribution: MJD/Devel-Trace-0.11'
+  distribution: 'MJD/Devel-Trace-0.11'
 disabled: 1
 ---
 comment: |
@@ -290,7 +298,7 @@ comment: |
   requests path to octave
 
 match:
-  distribution: 'AADLER/Inline-Octave-0.31
+  distribution: 'AADLER/Inline-Octave-0.31'
 disabled: 1
 ---
 comment: "looking for apache dir"
