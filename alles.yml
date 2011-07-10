@@ -209,14 +209,6 @@ match:
   distribution: 'TURNERMM/HTML-WikiConverter-DokuWikiFCK-0.32.10'
 disabled: 1
 ---
-comment: |
-
-  hangs
-
-match:
-  distribution: 'PIP/Curses-Simp-1.4.A8UG1gG'
-disabled: 1
----
 comment: "look for Apache source dir"
 match:
   distribution: |
