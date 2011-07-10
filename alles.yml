@@ -145,6 +145,11 @@ match:
   distribution: "^TURNSTEP/DBD-Pg-2.99.9_2"
 disabled: 1
 ---
+comment: "wants location of pg_config"
+match:
+  distribution: "^TURNSTEP/DBD-Pg-2.99.9_1"
+disabled: 1
+---
 comment: |
 
   hangs
@@ -231,7 +236,7 @@ comment: |
   hangs after: t/60setup_db-articles.t ... ok
 
 match:
-  distribution: 'BARBIE/CPAN-Testers-WWW-Reports-Mailer-\d'
+  distribution: "BARBIE/CPAN-Testers-WWW-Reports-Mailer-\d"
 disabled: 1
 ---
 comment: |
