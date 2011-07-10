@@ -230,7 +230,7 @@ comment: "prompts"
 match:
   distribution: |
     ^(?x:
-      ./Inline-Octave-\d
+      .*/Inline-Octave-\d
       |.*/DBIx-MyParse-\d
       |.*/Cisco-Management-\d
       |.*/XSDSQL_\d
@@ -241,7 +241,7 @@ comment: "hang"
 match:
   distribution: |
     ^(?x:
-      ./Xiaol-\d
+      .*/Xiaol-\d
       |.*/Curses-Simp-\d
       |.*/POE-Component-Server-HTTP-KeepAlive-\d
       |.*/Mail-Sender-\d
