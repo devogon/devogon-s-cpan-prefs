@@ -239,6 +239,7 @@ match:
       |.*/POE-Component-Server-HTTP-KeepAlive-\d
       |.*/Mail-Sender-\d
       |.*/Net-RabbitMQ-\d
+      |.*/MojoX-Run-\d
       |.*/B-Debugger-\d
       )|
 disabled: 1
