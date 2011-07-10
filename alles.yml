@@ -45,6 +45,10 @@ match:
 disabled: 1
 ---
 comment: |
+  hangs
+match:
+  distribution: 'FCO/threads-emulate-0.0.5'
+comment: |
   prompts for Google API key
 match:
   distribution: 'ASCOPE/Net-Google-1.0'
