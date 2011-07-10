@@ -195,9 +195,12 @@ match:
   distribution: 'MANOWAR/RadiusPerl-0.20'
 disabled: 1
 ---
-comment: "Please type ready when that is done: [No]. almost impossible to kill"
+comment: |
+  
+  Please type ready when that is done: [No]. almost impossible to kill
+
 match:
-  distribution: "^HESCO/LedgerSMB-API-0.04a"
+  distribution: 'HESCO/LedgerSMB-API-0.04a'
 disabled: 1
 ---
 comment: |
