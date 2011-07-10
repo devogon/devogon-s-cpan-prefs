@@ -176,25 +176,6 @@ match:
 disabled: 1
 ---
 comment: |
-
-  wants database connect string
-
-match:
-  distribution: 'BLX/XSDSQL_\d'
-disabled: 1
----
-comment: "wants database connect string"
-match:
-  distribution: "^BLX/XSDSQL_20110311"
-disabled: 1
----
-comment: |
-  wants database connect string
-match:
-  distribution: 'BLX/XSDSQL_20110616'
-disabled: 1
----
-comment: |
   wants papp library location
 match:
   distribution: 'MLEHMANN/Term-Menus-FromFile-1.0.0'
