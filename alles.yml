@@ -60,12 +60,6 @@ match:
 disabled: 1
 ---
 comment: |
-  hangs
-match:
-  distribution: 'MARANEL/Flickr-Embed-\d'
-disabled: 1
----
-comment: |
 
   crashes test env
 
@@ -241,6 +235,8 @@ match:
       |.*/Net-RabbitMQ-\d
       |.*/MojoX-Run-\d
       |.*/Sys-SyslogMessages-\d
+      |.*/Rest-Application-\d
+      |.*/Flickr-Embed-\d
       |.*/B-Debugger-\d
       )|
 disabled: 1
@@ -250,5 +246,6 @@ match:
   distribution: |
     ^(?x:
     .*/Net-FullAuto-\d
+    |.*/Concurrent-Object-\d
     )|
 disabled: 1
