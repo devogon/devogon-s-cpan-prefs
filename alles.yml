@@ -217,6 +217,7 @@ match:
     ^(?x:
       .*/Inline-Octave-\d
       |.*/Crypt-SKey-\d
+      |.*/Net-LDAPapi-\d
       |.*/DBIx-MyParse-\d
       |.*/Cisco-Management-\d
       |.*/XSDSQL_\d
