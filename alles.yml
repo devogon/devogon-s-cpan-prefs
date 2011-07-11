@@ -239,6 +239,7 @@ match:
       |.*/Sys-SyslogMessages-\d
       |.*/Rest-Application-\d
       |.*/Flickr-Embed-\d
+      |.*/Net-Link-\d
       |.*/B-Debugger-\d
       )|
 disabled: 1
