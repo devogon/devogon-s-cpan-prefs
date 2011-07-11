@@ -240,6 +240,15 @@ match:
       |.*/Mail-Sender-\d
       |.*/Net-RabbitMQ-\d
       |.*/MojoX-Run-\d
+      |.*/Sys-SyslogMessages-\d
       |.*/B-Debugger-\d
       )|
+disabled: 1
+---
+comment: "never ends"
+match:
+  distribution: |
+    ^(?x:
+    .*/Net-FullAuto-\d
+    )|
 disabled: 1
