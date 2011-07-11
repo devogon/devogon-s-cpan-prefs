@@ -238,6 +238,7 @@ match:
       |.*/MojoX-Run-\d
       |.*/Sys-SyslogMessages-\d
       |.*/Rest-Application-\d
+      |.*/DBD-SQLite-Amalgamation-\d
       |.*/Flickr-Embed-\d
       |.*/Net-Link-\d
       |.*/B-Debugger-\d
