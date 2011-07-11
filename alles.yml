@@ -232,6 +232,7 @@ match:
       |.*/CGI-Ex-\d
       |.*/Net-Curl-Simple-\d
       |.*/POE-Component-Server-HTTP-KeepAlive-\d
+      |.*/POE-Component-CPAN-SQLite-Info-\d
       |.*/Mail-Sender-\d
       |.*/Net-RabbitMQ-\d
       |.*/MojoX-Run-\d
