@@ -207,6 +207,7 @@ match:
      |.*/Apache2-Archive-\d
      |.*/Apache2-AuthCASSimple-\d
      |.*/perl-Apache2-LogUtil-\d
+     |.*/APR-HTTP-Headers-Compat-\d
      |.*/Apache2-ApacheMobileFilter-\d
      |.*/Apache-Profiler-\d
      )|
