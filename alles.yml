@@ -34,7 +34,7 @@ match:
 ---
 comment: "prompts for Google API key. skip tests"
 match:
-  distribution: "/Net-Google-1.0"
+  distribution: "/Net-Google-\d"
 test:
   commandline: "true"
 ---
