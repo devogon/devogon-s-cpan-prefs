@@ -219,6 +219,7 @@ match:
       |.*/Crypt-SKey-\d
       |.*/Net-LDAPapi-\d
       |.*/DBIx-MyParse-\d
+      |.*/File-SmartTail-\d
       |.*/Cisco-Management-\d
       |.*/XSDSQL_\d
       )|
