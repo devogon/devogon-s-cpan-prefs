@@ -220,6 +220,7 @@ match:
       |.*/Net-LDAPapi-\d
       |.*/DBIx-MyParse-\d
       |.*/File-SmartTail-\d
+      |.*/PersistentPerl-\d
       |.*/Cisco-Management-\d
       |.*/XSDSQL_\d
       )|
