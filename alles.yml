@@ -7,7 +7,6 @@ match:
     /(?x:
     .^   # never matches, only purpose is to let things align nicely
     |LWP-UserAgent-POE
-    |Curses-Simp
     |Proc-JobQueue
     |Term-Menus-FromFile
     |Authen-Krb5-Admin
@@ -206,6 +205,7 @@ match:
      |.*/Apache-AuthTicket-\d
      |.*/Apache2-REST-\d
      |.*/Apache2-Archive-\d
+     |.*/Apache2-AuthCASSimple-\d
      |.*/perl-Apache2-LogUtil-\d
      |.*/Apache2-ApacheMobileFilter-\d
      |.*/Apache-Profiler-\d
