@@ -31,11 +31,12 @@ comment: |
   hangs
 match:
   distribution: 'FCO/treadsemulate/threads-emulate-0.0.5'
-comment: |
-  prompts for Google API key
+---
+comment: "prompts for Google API key. skip tests"
 match:
-  distribution: 'ASCOPE/Net-Google-1.0'
-disabled: 1
+  distribution: "/Net-Google-1.0"
+test:
+  commandline: "true"
 ---
 comment: |
   
