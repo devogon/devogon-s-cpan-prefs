@@ -209,6 +209,7 @@ match:
      |.*/perl-Apache2-LogUtil-\d
      |.*/APR-HTTP-Headers-Compat-\d
      |.*/Apache-forks-\d
+     |.*/Devel-DLMProf-\d
      |.*/Apache2-OneTimeDownload-\d
      |.*/Apache2-ApacheMobileFilter-\d
      |.*/Apache-Profiler-\d
