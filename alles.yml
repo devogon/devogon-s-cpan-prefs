@@ -264,5 +264,6 @@ match:
     ^(?x:
     .*/Net-FullAuto-\d
     |.*/Concurrent-Object-\d
+    |.*/WWW-Hashdb-\d
     )|
 disabled: 1
