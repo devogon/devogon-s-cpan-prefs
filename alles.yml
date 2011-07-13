@@ -235,6 +235,7 @@ match:
     ^(?x:
       .*/Xiaol-\d
       |.*/Curses-Simp-\d
+      |.*/Rstat-Client-\d
       |.*/CGI-Ex-\d
       |.*/Net-Curl-Simple-\d
       |.*/POE-Component-Server-HTTP-KeepAlive-\d
