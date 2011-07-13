@@ -222,6 +222,7 @@ match:
       .*/Inline-Octave-\d
       |.*/Crypt-SKey-\d
       |.*/Net-LDAPapi-\d
+      |.*/DBIx-Recordset-\d
       |.*/DBIx-MyParse-\d
       |.*/File-SmartTail-\d
       |.*/Cache-Memcached-Indexable-\d
