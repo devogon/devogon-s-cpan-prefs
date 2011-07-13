@@ -224,6 +224,8 @@ match:
       |.*/Net-LDAPapi-\d
       |.*/DBIx-MyParse-\d
       |.*/File-SmartTail-\d
+      |.*/Cache-Memcached-Indexable-\d
+      |.*/TextLinkAds-\d
       |.*/PersistentPerl-\d
       |.*/Cisco-Management-\d
       |.*/XSDSQL_\d
