@@ -205,6 +205,7 @@ match:
      |.*/Apache-AuthTicket-\d
      |.*/Apache2-REST-\d
      |.*/Apache2-Archive-\d
+     |.*/Apache-Filter-\d
      |.*/Apache2-AuthCASSimple-\d
      |.*/perl-Apache2-LogUtil-\d
      |.*/APR-HTTP-Headers-Compat-\d
