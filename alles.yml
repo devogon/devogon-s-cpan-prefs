@@ -244,6 +244,8 @@ match:
       .*/XiaoI-\d
       |.*/Curses-Simp-\d
       |.*/POE-Loop-EV-\d
+      |.*/Crypt-RandPasswd-\d
+      |.*/Attribute-Persistent-\d
       |.*/Rstat-Client-\d
       |.*/CGI-Ex-\d
       |.*/Net-Curl-Simple-\d
