@@ -16,7 +16,7 @@ match:
     |Business-OnlinePayment-Exact
     |Winamp-Control
     |POE-Component-Server-NRPE
-    |POE-Loop-EV
+
     |Debarnacle
     |Crypt-Square
     |Lingua-Translate
@@ -243,6 +243,7 @@ match:
     ^(?x:
       .*/XiaoI-\d
       |.*/Curses-Simp-\d
+      |.*/POE-Loop-EV-\d
       |.*/Rstat-Client-\d
       |.*/CGI-Ex-\d
       |.*/Net-Curl-Simple-\d
