@@ -241,12 +241,13 @@ comment: "hang"
 match:
   distribution: |
     ^(?x:
-      .*/Xiaol-\d
+      .*/XiaoI-\d
       |.*/Curses-Simp-\d
       |.*/Rstat-Client-\d
       |.*/CGI-Ex-\d
       |.*/Net-Curl-Simple-\d
       |.*/POE-Component-Server-HTTP-KeepAlive-\d
+      |.*/POE-Component-Client-HTTP-KeepAlive-\d
       |.*/POE-Component-CPAN-SQLite-Info-\d
       |.*/Mail-Sender-\d
       |.*/Net-RabbitMQ-\d
