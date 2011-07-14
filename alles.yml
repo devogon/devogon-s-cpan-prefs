@@ -246,6 +246,7 @@ match:
       |.*/Rstat-Client-\d
       |.*/CGI-Ex-\d
       |.*/Net-Curl-Simple-\d
+      |.*/Mac-iTunes-\d
       |.*/POE-Component-Server-HTTP-KeepAlive-\d
       |.*/POE-Component-Client-HTTP-KeepAlive-\d
       |.*/POE-Component-CPAN-SQLite-Info-\d
