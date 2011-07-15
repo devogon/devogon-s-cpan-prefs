@@ -208,6 +208,7 @@ match:
      |.*/Apache-Filter-\d
      |.*/Apache2-AuthCASSimple-\d
      |.*/perl-Apache2-LogUtil-\d
+     |.*/OpenFrame-Segment-Apache-\d
      |.*/APR-HTTP-Headers-Compat-\d
      |.*/Apache-forks-\d
      |.*/Devel-DLMProf-\d
@@ -250,6 +251,7 @@ match:
       |.*/Rstat-Client-\d
       |.*/CGI-Ex-\d
       |.*/Net-Curl-Simple-\d
+      |.*/DBIx-XMLServer-\d
       |.*/Mac-iTunes-\d
       |.*/POE-Component-Server-HTTP-KeepAlive-\d
       |.*/POE-Component-Client-HTTP-KeepAlive-\d
@@ -273,6 +275,7 @@ match:
     ^(?x:
     .*/Net-FullAuto-\d
     |.*/Concurrent-Object-\d
+    |.*/Alzabo-GUI-Mason-\d
     |.*/WWW-Hashdb-\d
     )|
 disabled: 1
