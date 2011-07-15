@@ -275,6 +275,8 @@ match:
       |.*/Flickr-Embed-\d
       |.*/Net-Link-\d
       |.*/B-Debugger-\d
+      |.*/Sys-Ptrace-\d
+      |.*/Authen-CyrusSASL-\d
       |.*/TiVo-HME-\d
       )|
 disabled: 1
