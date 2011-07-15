@@ -283,7 +283,7 @@ match:
     |.*/Concurrent-Object-\d
     |.*/Alzabo-GUI-Mason-\d
     |.*/WWW-Hashdb-\d
-    |.*/Acme-Method-CaseINsensitive-\d
+    |.*/Acme-Method-CaseInsensitive-\d
     )|
 disabled: 1
 ---
