@@ -257,6 +257,7 @@ match:
       |.*/Rstat-Client-\d
       |.*/CGI-Ex-\d
       |.*/Net-Curl-Simple-\d
+      |.*/IO-File-Log-\d
       |.*/DBIx-XMLServer-\d
       |.*/Mac-iTunes-\d
       |.*/POE-Component-Server-HTTP-KeepAlive-\d
