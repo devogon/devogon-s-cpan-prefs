@@ -224,6 +224,7 @@ match:
       .*/Inline-Octave-\d
       |.*/Crypt-SKey-\d
       |.*/Net-LDAPapi-\d
+      |.*/Mail-SendEasy-\d
       |.*/SAP-Rfc-\d
       |.*/DBIx-Recordset-\d
       |.*/Myco-\d
