@@ -230,6 +230,7 @@ match:
       |.*/DBIx-Recordset-\d
       |.*/DBIx-Password-\d
       |.*/Myco-\d
+      |.*/Modbus-Client-\d
       |.*/EZDBI-\d
       |.*/DBIx-MyParse-\d
       |.*/File-SmartTail-\d
