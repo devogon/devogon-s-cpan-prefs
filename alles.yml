@@ -240,6 +240,7 @@ match:
       |.*/TextLinkAds-\d
       |.*/PersistentPerl-\d
       |.*/Cisco-Management-\d
+      |.*/Jvm-\d
       |.*/Test-WWW-Mechanize-Catalyst-\d
       |.*/XSDSQL_\d
       )|
