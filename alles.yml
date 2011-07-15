@@ -227,6 +227,7 @@ match:
       |.*/Crypt-SKey-\d
       |.*/Net-LDAPapi-\d
       |.*/Mail-SendEasy-\d
+      |.*/MIDI-Music-\d
       |.*/SAP-Rfc-\d
       |.*/DBIx-Recordset-\d
       |.*/DBIx-SQLEngine-\d
