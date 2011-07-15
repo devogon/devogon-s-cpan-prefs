@@ -229,6 +229,7 @@ match:
       |.*/Mail-SendEasy-\d
       |.*/SAP-Rfc-\d
       |.*/DBIx-Recordset-\d
+      |.*/DBIx-SQLEngine-\d
       |.*/DBIx-Password-\d
       |.*/Myco-\d
       |.*/Modbus-Client-\d
