@@ -232,12 +232,14 @@ match:
       |.*/Myco-\d
       |.*/Modbus-Client-\d
       |.*/EZDBI-\d
+      |.*/UDPM-\d
       |.*/DBIx-MyParse-\d
       |.*/File-SmartTail-\d
       |.*/Cache-Memcached-Indexable-\d
       |.*/TextLinkAds-\d
       |.*/PersistentPerl-\d
       |.*/Cisco-Management-\d
+      |.*/Test-WWW-Mechanize-Catalyst-\d
       |.*/XSDSQL_\d
       )|
 disabled: 1
