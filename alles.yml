@@ -262,6 +262,7 @@ match:
       |.*/Flickr-Embed-\d
       |.*/Net-Link-\d
       |.*/B-Debugger-\d
+      |.*/TiVo-HME-\d
       )|
 disabled: 1
 ---
