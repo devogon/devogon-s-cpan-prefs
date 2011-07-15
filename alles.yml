@@ -214,6 +214,7 @@ match:
      |.*/Devel-DLMProf-\d
      |.*/Apache2-OneTimeDownload-\d
      |.*/Apache2-ApacheMobileFilter-\d
+     |.*/Apache2-Filter-CSS-Less-\d
      |.*/Apache-Profiler-\d
      )|
 disabled: 1
