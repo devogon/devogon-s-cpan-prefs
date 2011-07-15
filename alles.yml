@@ -261,6 +261,7 @@ match:
       |.*/CGI-Ex-\d
       |.*/Net-Curl-Simple-\d
       |.*/NetServer-Generic-\d
+      |.*/Win32-Script-\d
       |.*/IO-File-Log-\d
       |.*/DBIx-XMLServer-\d
       |.*/Mac-iTunes-\d
