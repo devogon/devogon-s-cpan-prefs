@@ -256,6 +256,7 @@ match:
       |.*/POE-Component-Server-HTTP-KeepAlive-\d
       |.*/POE-Component-Client-HTTP-KeepAlive-\d
       |.*/POE-Component-CPAN-SQLite-Info-\d
+      |.*/POE-Component-Child-\d
       |.*/Mail-Sender-\d
       |.*/Net-RabbitMQ-\d
       |.*/MojoX-Run-\d
