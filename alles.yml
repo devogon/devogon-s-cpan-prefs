@@ -282,3 +282,11 @@ match:
     |.*/WWW-Hashdb-\d
     )|
 disabled: 1
+---
+comment: "crash test environment"
+match:
+  distribution: |
+    ^(?x:
+      .*/DJabberd-\d
+      )|
+disabled: 1
