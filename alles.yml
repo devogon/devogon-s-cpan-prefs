@@ -229,14 +229,21 @@ match:
       |.*/Mail-SendEasy-\d
       |.*/MIDI-Music-\d
       |.*/SAP-Rfc-\d
+      |.*/Sudo-\d
+      |.*/MARC-errorchecks-\d
+      |.*/DbFramework-\d
+      |.*/Net-Amazon-Thumbnail-\d
+      |.*/WAIT-\d
       |.*/DBIx-Recordset-\d
       |.*/DBIx-SQLEngine-\d
       |.*/DBIx-Password-\d
+      |.*/HTTP-File-\d
       |.*/Myco-\d
       |.*/Modbus-Client-\d
       |.*/EZDBI-\d
       |.*/UDPM-\d
       |.*/DBIx-MyParse-\d
+      |.*/Net-Partty-Screen-\d
       |.*/File-SmartTail-\d
       |.*/Cache-Memcached-Indexable-\d
       |.*/TextLinkAds-\d
@@ -260,16 +267,17 @@ match:
       |.*/Rstat-Client-\d
       |.*/CGI-Ex-\d
       |.*/Net-Curl-Simple-\d
-      |.*/NetServer-Generic-\d
-      |.*/Win32-Script-\d
       |.*/IO-File-Log-\d
       |.*/DBIx-XMLServer-\d
+      |.*/NetServer-Generic-\d
+      |.*/Win32-Script-\d
       |.*/Mac-iTunes-\d
       |.*/POE-Component-Server-HTTP-KeepAlive-\d
       |.*/POE-Component-Client-HTTP-KeepAlive-\d
       |.*/POE-Component-CPAN-SQLite-Info-\d
       |.*/POE-Component-Child-\d
       |.*/Mail-Sender-\d
+      |.*/IPC-Shareable-\d
       |.*/Net-RabbitMQ-\d
       |.*/MojoX-Run-\d
       |.*/Sys-SyslogMessages-\d
