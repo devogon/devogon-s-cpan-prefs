@@ -226,6 +226,7 @@ match:
       .*/Inline-Octave-\d
       |.*/Crypt-SKey-\d
       |.*/Net-LDAPapi-\d
+      |.*/XML-API-WIX2-\d
       |.*/Mail-SendEasy-\d
       |.*/MIDI-Music-\d
       |.*/Math-Matlab-\d
