@@ -231,6 +231,7 @@ match:
       |.*/SAP-Rfc-\d
       |.*/Sudo-\d
       |.*/MARC-errorchecks-\d
+      |.*/Senna-\d
       |.*/DbFramework-\d
       |.*/Net-Amazon-Thumbnail-\d
       |.*/WAIT-\d
