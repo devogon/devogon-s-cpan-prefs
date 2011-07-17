@@ -227,6 +227,7 @@ match:
       |.*/Crypt-SKey-\d
       |.*/Net-LDAPapi-\d
       |.*/XML-API-WIX2-\d
+      |.*/Embperl-\d
       |.*/Mail-SendEasy-\d
       |.*/MIDI-Music-\d
       |.*/Math-Matlab-\d
