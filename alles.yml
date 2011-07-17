@@ -270,6 +270,7 @@ match:
       |.*/CGI-Ex-\d
       |.*/Net-Curl-Simple-\d
       |.*/IO-File-Log-\d
+      |.*/Math-TrulyRandom-\d
       |.*/DBIx-XMLServer-\d
       |.*/NetServer-Generic-\d
       |.*/Win32-Script-\d
