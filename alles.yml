@@ -273,6 +273,7 @@ match:
       |.*/NetServer-Generic-\d
       |.*/Win32-Script-\d
       |.*/Mac-iTunes-\d
+      |.*/Log-ErrLogger-\d
       |.*/POE-Component-Server-HTTP-KeepAlive-\d
       |.*/POE-Component-Client-HTTP-KeepAlive-\d
       |.*/POE-Component-CPAN-SQLite-Info-\d
