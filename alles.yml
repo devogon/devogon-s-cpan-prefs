@@ -228,6 +228,7 @@ match:
       |.*/Net-LDAPapi-\d
       |.*/Mail-SendEasy-\d
       |.*/MIDI-Music-\d
+      |.*/Math-Matlab-\d
       |.*/SAP-Rfc-\d
       |.*/Sudo-\d
       |.*/MARC-errorchecks-\d
