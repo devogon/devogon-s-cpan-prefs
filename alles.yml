@@ -233,6 +233,7 @@ match:
       |.*/MARC-errorchecks-\d
       |.*/Senna-\d
       |.*/DbFramework-\d
+      |.*/nsapi_perl-\d
       |.*/Net-Amazon-Thumbnail-\d
       |.*/WAIT-\d
       |.*/DBIx-Recordset-\d
