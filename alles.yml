@@ -248,6 +248,7 @@ match:
       |.*/UDPM-\d
       |.*/DBIx-MyParse-\d
       |.*/Net-Partty-Screen-\d
+      |.*/Newsletter-\d
       |.*/File-SmartTail-\d
       |.*/Cache-Memcached-Indexable-\d
       |.*/TextLinkAds-\d
