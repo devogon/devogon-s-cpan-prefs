@@ -241,6 +241,9 @@ match:
       |.*/HTTP-File-\d
       |.*/Myco-\d
       |.*/Modbus-Client-\d
+      |.*/Acme-Tests-\d
+      |.*/PGP-Sign-\d
+      |.*/Fax-HylaFax-Client-\d
       |.*/EZDBI-\d
       |.*/UDPM-\d
       |.*/DBIx-MyParse-\d
