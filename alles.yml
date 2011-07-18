@@ -235,6 +235,7 @@ match:
       |.*/Sudo-\d
       |.*/MARC-errorchecks-\d
       |.*/Senna-\d
+      |.*/CAS-Apache-\d
       |.*/DbFramework-\d
       |.*/nsapi_perl-\d
       |.*/Net-Amazon-Thumbnail-\d
@@ -305,6 +306,7 @@ match:
     ^(?x:
     .*/Net-FullAuto-\d
     |.*/Concurrent-Object-\d
+    |.*/Simple-Plugin-NetAddr-IP-\d
     |.*/Alzabo-GUI-Mason-\d
     |.*/WWW-Hashdb-\d
     |.*/Acme-Method-CaseInsensitive-\d
