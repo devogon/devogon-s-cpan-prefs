@@ -305,6 +305,7 @@ match:
     |.*/Simple-Plugin-NetAddr-IP-\d
     |.*/Alzabo-GUI-Mason-\d
     |.*/WWW-Hashdb-\d
+    |.*/WebService-FreeDB-\d
     |.*/Acme-Method-CaseInsensitive-\d
     )|
 disabled: 1
