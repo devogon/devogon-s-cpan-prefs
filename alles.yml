@@ -26,11 +26,6 @@ match:
     |ExtUtils-configPL
     )-v?\d|
 ---
-comment: |
-  hangs
-match:
-  distribution: 'FCO/treadsemulate/threads-emulate-0.0.5'
----
 comment: "prompts for Google API key. skip tests"
 match:
   distribution: "/Net-Google-\d"
@@ -272,6 +267,7 @@ match:
       |.*/Attribute-Persistent-\d
       |.*/Rstat-Client-\d
       |.*/CGI-Ex-\d
+      |.*/treadsemulate/threads-emulate-\d
       |.*/Net-Curl-Simple-\d
       |.*/IO-File-Log-\d
       |.*/Math-TrulyRandom-\d
@@ -289,7 +285,7 @@ match:
       |.*/Net-RabbitMQ-\d
       |.*/MojoX-Run-\d
       |.*/Sys-SyslogMessages-\d
-      |.*/Rest-Application-\d
+      |.*/REST-Application-\d
       |.*/DBD-SQLite-Amalgamation-\d
       |.*/Flickr-Embed-\d
       |.*/Net-Link-\d
