@@ -69,14 +69,6 @@ match:
 disabled: 1
 ---
 comment: |
-  interactive
-match:
-  distribution: 'SCOTTW/Term-Twiddle-2.71'
-disabled: 1
-pl:
-  expect: "Do you want to run the (brief but interactive) tests? [y]:"
----
-comment: |
   wants ENTER to continue!
 match:
   distribution: 'MSROTH/Db-Documentum-1.64'
@@ -223,6 +215,7 @@ match:
       |.*/Net-LDAPapi-\d
       |.*/XML-API-WIX2-\d
       |.*/Embperl-\d
+      |.*/Term-Twiddle-\d
       |.*/Mail-SendEasy-\d
       |.*/MIDI-Music-\d
       |.*/Math-Matlab-\d
