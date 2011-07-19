@@ -214,6 +214,8 @@ match:
       |.*/Crypt-SKey-\d
       |.*/Net-LDAPapi-\d
       |.*/Apache-SessionX-\d
+      |.*/Java-\d
+      |.*/Geo-Weather-\d
       |.*/XML-API-WIX2-\d
       |.*/Embperl-\d
       |.*/Term-Twiddle-\d
