@@ -16,7 +16,6 @@ match:
     |Business-OnlinePayment-Exact
     |Winamp-Control
     |POE-Component-Server-NRPE
-
     |Debarnacle
     |Crypt-Square
     |Lingua-Translate
@@ -25,42 +24,6 @@ match:
     |Crypt-Serpent
     |ExtUtils-configPL
     )-v?\d|
----
-comment: "prompts for Google API key. skip tests"
-match:
-  distribution: "/Net-Google-\d"
-test:
-  commandline: "true"
----
-comment: |
-  
-  hangs
-
-match:
-  distribution: 'SWALTERS/Acme-RPC-0.01'
-disabled: 1
----
-comment: |
-
-  hangs
-
-match:
-  distribution: 'JESUS/Net-RabbitMQ-0.2.0'
-disabled: 1
----
-comment: |
-  hangs
-match:
-  distribution: 'SDEN/WebService-FuncNet-\d'
-disabled: 1
----
-comment: |
-
-  crashes test env
-
-match:
-  distribution: 'VIZDOM/DBD-JDBC-0.71'
-disabled: 1
 ---
 comment: |
   (is a dev version) asks for Directory name:
@@ -175,12 +138,6 @@ match:
   distribution: 'MJD/Devel-Trace-0.11'
 disabled: 1
 ---
-comment: |
-  needs absolute pathname to wiki...
-match:
-  distribution: 'TURNERMM/HTML-WikiConverter-DokuWikiFCK-0.32.10'
-disabled: 1
----
 comment: "look for Apache source dir"
 match:
   distribution: |
@@ -215,6 +172,7 @@ match:
       |.*/Net-LDAPapi-\d
       |.*/Apache-SessionX-\d
       |.*/Java-\d
+      |.*/HTML-WikiConverter-DokuWikiFCK-\d
       |.*/Geo-Weather-\d
       |.*/XML-API-WIX2-\d
       |.*/Embperl-\d
@@ -231,6 +189,7 @@ match:
       |.*/DbFramework-\d
       |.*/nsapi_perl-\d
       |.*/Net-Amazon-Thumbnail-\d
+      |.*/Net-Google-\d
       |.*/WAIT-\d
       |.*/DBIx-Recordset-\d
       |.*/DBIx-SQLEngine-\d
@@ -265,6 +224,7 @@ match:
       |Curses-Simp
       |POE-Loop-EV
       |Data-Freezer
+      |WebService-FuncNet
       |Task-BeLike-MELO
       |Crypt-RandPasswd
       |Attribute-Persistent
@@ -284,6 +244,7 @@ match:
       |POE-Component-CPAN-SQLite-Info
       |POE-Component-Child
       |Mail-Sender
+      |Acme-RPC
       |IPC-Shareable
       |Net-RabbitMQ
       |MojoX-Run
@@ -319,5 +280,6 @@ match:
   distribution: |
     ^(?x:
       .*/DJabberd-\d
+      |.*/DBD-JDBC-\d
       )|
 disabled: 1
