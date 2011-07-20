@@ -264,6 +264,8 @@ match:
       .*/XiaoI-\d
       |.*/Curses-Simp-\d
       |.*/POE-Loop-EV-\d
+      |.*/Data-Freezer-\d
+      |.*/Task-BeLike-MELO-\d
       |.*/Crypt-RandPasswd-\d
       |.*/Attribute-Persistent-\d
       |.*/Rstat-Client-\d
@@ -300,15 +302,16 @@ disabled: 1
 comment: "never ends"
 match:
   distribution: |
-    ^(?x:
-    .*/Net-FullAuto-\d
-    |.*/Concurrent-Object-\d
-    |.*/Simple-Plugin-NetAddr-IP-\d
-    |.*/Alzabo-GUI-Mason-\d
-    |.*/WWW-Hashdb-\d
-    |.*/WebService-FreeDB-\d
-    |.*/Acme-Method-CaseInsensitive-\d
-    )|
+    /(?x:
+    .^ # allows nice alignment
+    |Net-FullAuto
+    |Concurrent-Object
+    |Simple-Plugin-NetAddr-IP
+    |Alzabo-GUI-Mason
+    |WWW-Hashdb
+    |WebService-FreeDB
+    |Acme-Method-CaseInsensitive
+    )-v?\d|
 disabled: 1
 ---
 comment: "crash test environment"
