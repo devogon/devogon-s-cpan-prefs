@@ -143,23 +143,23 @@ match:
   distribution: |
     ^(?x:
       .*/Silki-\d
-     |.*/CGI-Application-Plugin-Apache-\d
-     |.*/Apache2-AuthenOpenID-\d
-     |.*/Apache-RandomImage-\d
-     |.*/Apache-AuthTicket-\d
-     |.*/Apache2-REST-\d
-     |.*/Apache2-Archive-\d
-     |.*/Apache-Filter-\d
-     |.*/Apache2-AuthCASSimple-\d
-     |.*/perl-Apache2-LogUtil-\d
-     |.*/OpenFrame-Segment-Apache-\d
      |.*/APR-HTTP-Headers-Compat-\d
-     |.*/Apache-forks-\d
-     |.*/Devel-DLMProf-\d
-     |.*/Apache2-OneTimeDownload-\d
-     |.*/Apache2-ApacheMobileFilter-\d
-     |.*/Apache2-Filter-CSS-Less-\d
+     |.*/Apache-AuthTicket-\d
+     |.*/Apache-Filter-\d
      |.*/Apache-Profiler-\d
+     |.*/Apache-RandomImage-\d
+     |.*/Apache-forks-\d
+     |.*/Apache2-ApacheMobileFilter-\d
+     |.*/Apache2-Archive-\d
+     |.*/Apache2-AuthCASSimple-\d
+     |.*/Apache2-AuthenOpenID-\d
+     |.*/Apache2-Filter-CSS-Less-\d
+     |.*/Apache2-OneTimeDownload-\d
+     |.*/Apache2-REST-\d
+     |.*/CGI-Application-Plugin-Apache-\d
+     |.*/Devel-DLMProf-\d
+     |.*/OpenFrame-Segment-Apache-\d
+     |.*/perl-Apache2-LogUtil-\d
      )|
 disabled: 1
 ---
@@ -168,111 +168,110 @@ match:
   distribution: |
     ^(?x:
       .*/Inline-Octave-\d
-      |.*/Crypt-SKey-\d
-      |.*/Net-LDAPapi-\d
+      |.*/Acme-Tests-\d
       |.*/Apache-SessionX-\d
-      |.*/Java-\d
-      |.*/HTML-WikiConverter-DokuWikiFCK-\d
-      |.*/Geo-Weather-\d
-      |.*/XML-API-WIX2-\d
-      |.*/Embperl-\d
-      |.*/Term-Twiddle-\d
-      |.*/Mail-SendEasy-\d
-      |.*/MIDI-Music-\d
-      |.*/Math-Matlab-\d
-      |.*/SAP-Rfc-\d
-      |.*/Sudo-\d
-      |.*/MARC-errorchecks-\d
-      |.*/Senna-\d
       |.*/CAS-Apache-\d
-      |.*/DateTime-LazyInit-\d
-      |.*/DbFramework-\d
-      |.*/nsapi_perl-\d
-      |.*/Net-Amazon-Thumbnail-\d
-      |.*/Net-Google-\d
-      |.*/WAIT-\d
+      |.*/Cache-Memcached-Indexable-\d
+      |.*/Cisco-Management-\d
+      |.*/Crypt-SKey-\d
+      |.*/DBIx-MyParse-\d
+      |.*/DBIx-Password-\d
       |.*/DBIx-Recordset-\d
       |.*/DBIx-SQLEngine-\d
-      |.*/DBIx-Password-\d
-      |.*/HTTP-File-\d
-      |.*/Myco-\d
-      |.*/Modbus-Client-\d
-      |.*/Acme-Tests-\d
-      |.*/PGP-Sign-\d
-      |.*/Fax-HylaFax-Client-\d
+      |.*/DateTime-LazyInit-\d
+      |.*/DbFramework-\d
       |.*/EZDBI-\d
-      |.*/UDPM-\d
-      |.*/DBIx-MyParse-\d
+      |.*/Embperl-\d
+      |.*/Fax-HylaFax-Client-\d
+      |.*/File-SmartTail-\d
+      |.*/Geo-Weather-\d
+      |.*/HTML-WikiConverter-DokuWikiFCK-\d
+      |.*/HTTP-File-\d
+      |.*/Java-\d
+      |.*/Jvm-\d
+      |.*/MARC-errorchecks-\d
+      |.*/MIDI-Music-\d
+      |.*/Mail-SendEasy-\d
+      |.*/Math-Matlab-\d
+      |.*/Modbus-Client-\d
+      |.*/Myco-\d
+      |.*/Net-Amazon-Thumbnail-\d
+      |.*/Net-Google-\d
+      |.*/Net-LDAPapi-\d
       |.*/Net-Partty-Screen-\d
       |.*/Newsletter-\d
-      |.*/File-SmartTail-\d
-      |.*/Cache-Memcached-Indexable-\d
-      |.*/TextLinkAds-\d
+      |.*/PGP-Sign-\d
       |.*/PersistentPerl-\d
-      |.*/Cisco-Management-\d
-      |.*/Jvm-\d
+      |.*/SAP-Rfc-\d
+      |.*/Senna-\d
+      |.*/Sudo-\d
+      |.*/Term-Twiddle-\d
       |.*/Test-WWW-Mechanize-Catalyst-\d
+      |.*/TextLinkAds-\d
+      |.*/UDPM-\d
+      |.*/WAIT-\d
+      |.*/XML-API-WIX2-\d
       |.*/XSDSQL_\d
+      |.*/nsapi_perl-\d
       )|
 disabled: 1
 ---
 comment: "hang"
 match:
   distribution: |
-    /(?x:
-      |XiaoI
-      |Curses-Simp
-      |POE-Loop-EV
-      |Data-Freezer
-      |WebService-FuncNet
-      |Task-BeLike-MELO
-      |Crypt-RandPasswd
-      |Attribute-Persistent
-      |Rstat-Client
-      |CGI-Ex
-      |treadsemulate/threads-emulate
-      |Net-Curl-Simple
-      |IO-File-Log
-      |Math-TrulyRandom
-      |DBIx-XMLServer
-      |NetServer-Generic
-      |Win32-Script
-      |Mac-iTunes
-      |Log-ErrLogger
-      |POE-Component-Server-HTTP-KeepAlive
-      |POE-Component-Client-HTTP-KeepAlive
-      |POE-Component-CPAN-SQLite-Info
-      |POE-Component-Child
-      |Mail-Sender
-      |Acme-RPC
-      |IPC-Shareable
-      |Net-RabbitMQ
-      |MojoX-Run
-      |Sys-SyslogMessages
-      |REST-Application
-      |DBD-SQLite-Amalgamation
-      |Flickr-Embed
-      |Net-Link
-      |B-Debugger
-      |Sys-Ptrace
-      |Authen-CyrusSASL
-      |TiVo-HME
-      )-v?\d|
+    ^(?x:
+       .*/Acme-RPC-\d
+      |.*/Attribute-Persistent-\d
+      |.*/Authen-CyrusSASL-\d
+      |.*/B-Debugger-\d
+      |.*/CGI-Ex-\d
+      |.*/Crypt-RandPasswd-\d
+      |.*/Curses-Simp-\d
+      |.*/DBD-SQLite-Amalgamation-\d
+      |.*/DBIx-XMLServer-\d
+      |.*/Data-Freezer-\d
+      |.*/Flickr-Embed-\d
+      |.*/IO-File-Log-\d
+      |.*/IPC-Shareable-\d
+      |.*/Log-ErrLogger-\d
+      |.*/Mac-iTunes-\d
+      |.*/Mail-Sender-\d
+      |.*/Math-TrulyRandom-\d
+      |.*/MojoX-Run-\d
+      |.*/Net-Curl-Simple-\d
+      |.*/Net-Link-\d
+      |.*/Net-RabbitMQ-\d
+      |.*/NetServer-Generic-\d
+      |.*/POE-Component-CPAN-SQLite-Info-\d
+      |.*/POE-Component-Child-\d
+      |.*/POE-Component-Client-HTTP-KeepAlive-\d
+      |.*/POE-Component-Server-HTTP-KeepAlive-\d
+      |.*/POE-Loop-EV-\d
+      |.*/REST-Application-\d
+      |.*/Rstat-Client-\d
+      |.*/Sys-Ptrace-\d
+      |.*/Sys-SyslogMessages-\d
+      |.*/Task-BeLike-MELO-\d
+      |.*/TiVo-HME-\d
+      |.*/WebService-FuncNet-\d
+      |.*/Win32-Script-\d
+      |.*/XiaoI-\d
+      |.*/treadsemulate/threads-emulate-\d
+      )|
 disabled: 1
 ---
 comment: "never ends"
 match:
   distribution: |
-    /(?x:
-    .^ # allows nice alignment
-    |Net-FullAuto
-    |Concurrent-Object
-    |Simple-Plugin-NetAddr-IP
-    |Alzabo-GUI-Mason
-    |WWW-Hashdb
-    |WebService-FreeDB
-    |Acme-Method-CaseInsensitive
-    )-v?\d|
+    ^(?x:
+     .*/Acme-Method-CaseInsensitive-\d
+    |.*/Alzabo-GUI-Mason-\d
+    |.*/Concurrent-Object-\d
+    |.*/Net-FullAuto-\d
+    |.*/Simple-Plugin-NetAddr-IP-\d
+    |.*/WWW-Hashdb-\d
+    |.*/WebService-FreeDB-\d
+    )|
 disabled: 1
 ---
 comment: "crash test environment"
