@@ -223,6 +223,7 @@ match:
     ^(?x:
        .*/Acme-RPC-\d
       |.*/Attribute-Persistent-\d
+      |.*/Audio-Play-MPlayer-\d
       |.*/Authen-CyrusSASL-\d
       |.*/B-Debugger-\d
       |.*/CGI-Ex-\d
