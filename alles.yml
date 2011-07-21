@@ -198,6 +198,7 @@ match:
       |.*/Myco-\d
       |.*/Net-Amazon-Thumbnail-\d
       |.*/Net-Google-\d
+      |.*/Net-Ifconfig-Wrappen-\d
       |.*/Net-LDAPapi-\d
       |.*/Net-Partty-Screen-\d
       |.*/Newsletter-\d
