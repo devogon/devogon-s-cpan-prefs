@@ -212,6 +212,7 @@ match:
       |.*/TextLinkAds-\d
       |.*/UDPM-\d
       |.*/WAIT-\d
+      |.*/XAO-Indexer-\d
       |.*/XML-API-WIX2-\d
       |.*/XSDSQL_\d
       |.*/nsapi_perl-\d
