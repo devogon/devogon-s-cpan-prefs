@@ -172,6 +172,7 @@ match:
       |.*/Apache-SessionX-\d
       |.*/CAS-Apache-\d
       |.*/Cache-Memcached-Indexable-\d
+      |.*/Chart-Graph-Gnuplot-\d
       |.*/Cisco-Management-\d
       |.*/Crypt-SKey-\d
       |.*/DBIx-MyParse-\d
@@ -250,6 +251,7 @@ match:
       |.*/POE-Loop-EV-\d
       |.*/REST-Application-\d
       |.*/Rstat-Client-\d
+      |.*/Sphinx-Manager-\d
       |.*/Sys-Ptrace-\d
       |.*/Sys-SyslogMessages-\d
       |.*/Task-BeLike-MELO-\d
