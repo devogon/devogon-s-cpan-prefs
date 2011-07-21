@@ -215,6 +215,7 @@ match:
       |.*/XML-API-WIX2-\d
       |.*/XSDSQL_\d
       |.*/nsapi_perl-\d
+      |.*/rrdpoller-\d
       )|
 disabled: 1
 ---
