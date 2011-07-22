@@ -219,6 +219,7 @@ match:
       |.*/XSDSQL_\d
       |.*/nsapi_perl-\d
       |.*/rrdpoller-\d
+      |.*/xmltv-\d
       )|
 disabled: 1
 ---
@@ -250,6 +251,7 @@ match:
       |.*/Net-Curl-Simple-\d
       |.*/Net-Link-\d
       |.*/Net-RabbitMQ-\d
+      |.*/Net-Server-\d
       |.*/NetServer-Generic-\d
       |.*/Pixie-\d
       |.*/POE-Component-CPAN-SQLite-Info-\d
