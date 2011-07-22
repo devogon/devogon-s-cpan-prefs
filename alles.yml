@@ -232,6 +232,7 @@ match:
       |.*/Authen-CyrusSASL-\d
       |.*/B-Debugger-\d
       |.*/CGI-Ex-\d
+      |.*/Class-DBI-DB2-\d
       |.*/Crypt-Dining-\d
       |.*/Crypt-RandPasswd-\d
       |.*/Curses-Simp-\d
