@@ -259,6 +259,7 @@ match:
       |.*/REST-Application-\d
       |.*/Rstat-Client-\d
       |.*/Sphinx-Manager-\d
+      |.*/SWISH-Prog-Lucy-\d
       |.*/Sys-Ptrace-\d
       |.*/Sys-SyslogMessages-\d
       |.*/Task-BeLike-MELO-\d
