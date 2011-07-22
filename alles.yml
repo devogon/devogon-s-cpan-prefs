@@ -204,6 +204,7 @@ match:
       |.*/Newsletter-\d
       |.*/PGP-Sign-\d
       |.*/PersistentPerl-\d
+      |.*/POE-Component-LaDBI-\d
       |.*/SAP-Rfc-\d
       |.*/Senna-\d
       |.*/Sudo-\d
