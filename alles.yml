@@ -207,6 +207,7 @@ match:
       |.*/POE-Component-LaDBI-\d
       |.*/SAP-Rfc-\d
       |.*/Senna-\d
+      |.*/SPOPSx-Ginsu-\d
       |.*/Sudo-\d
       |.*/Term-Twiddle-\d
       |.*/Test-WWW-Mechanize-Catalyst-\d
