@@ -188,6 +188,7 @@ match:
       |.*/Geo-Weather-\d
       |.*/HTML-WikiConverter-DokuWikiFCK-\d
       |.*/HTTP-File-\d
+      |.*/Jabber-mod_perl-\d
       |.*/Java-\d
       |.*/Jvm-\d
       |.*/MARC-errorchecks-\d
@@ -197,6 +198,7 @@ match:
       |.*/Modbus-Client-\d
       |.*/Myco-\d
       |.*/Net-Amazon-Thumbnail-\d
+      |.*/Net-FTPSSL-\d
       |.*/Net-Google-\d
       |.*/Net-Ifconfig-Wrappen-\d
       |.*/Net-LDAPapi-\d
