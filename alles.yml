@@ -260,6 +260,7 @@ match:
       |.*/POE-Component-Child-\d
       |.*/POE-Component-Client-HTTP-KeepAlive-\d
       |.*/POE-Component-MessageQueue-\d
+      |.*/POE-Component-Resolver-\d
       |.*/POE-Component-Server-HTTP-KeepAlive-\d
       |.*/POE-Loop-EV-\d
       |.*/REST-Application-\d
