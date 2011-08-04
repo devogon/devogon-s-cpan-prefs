@@ -273,6 +273,7 @@ match:
       |.*/TiVo-HME-\d
       |.*/WebService-FuncNet-\d
       |.*/Win32-Script-\d
+      |.*/WWW-Moos-Scraper-\d
       |.*/XiaoI-\d
       |.*/treadsemulate/threads-emulate-\d
       )|
