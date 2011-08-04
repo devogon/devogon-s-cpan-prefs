@@ -191,7 +191,6 @@ match:
       |.*/Jabber-mod_perl-\d
       |.*/Java-\d
       |.*/Jvm-\d
-      |.*/MARC-errorchecks-\d
       |.*/MIDI-Music-\d
       |.*/Mail-SendEasy-\d
       |.*/Math-Matlab-\d
@@ -303,3 +302,10 @@ match:
       |.*/DBD-JDBC-\d
       )|
 disabled: 1
+---
+match:
+  distribution: 'EIJABB/MARC-Errorchecks-\d'
+test:
+  expect:
+    - "Press Enter to quit"
+    - "\n"
