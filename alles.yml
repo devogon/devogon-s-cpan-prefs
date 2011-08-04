@@ -180,7 +180,7 @@ match:
       |.*/DBIx-Recordset-\d
       |.*/DBIx-SQLEngine-\d
       |.*/DateTime-LazyInit-\d
-      |.*/DbFramework-\d
+      |.*/DbFramework-\d                   # fix this later after install of database on server
       |.*/EZDBI-\d
       |.*/Embperl-\d
       |.*/Fax-HylaFax-Client-\d
@@ -244,6 +244,7 @@ match:
       |.*/Data-Freezer-\d
       |.*/Flickr-Embed-\d
       |.*/Hardware-1Wire-HA7Net-\d
+      |.*/HTTP-ProxySelector-Persistent-\d
       |.*/IO-File-Log-\d
       |.*/IPC-Shareable-\d
       |.*/Log-ErrLogger-\d
