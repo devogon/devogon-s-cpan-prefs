@@ -198,6 +198,7 @@ match:
       |.*/Modbus-Client-\d
       |.*/Myco-\d
       |.*/Net-Amazon-Thumbnail-\d
+      |.*/Net-DHCP-Control-\d
       |.*/Net-FTPSSL-\d
       |.*/Net-Google-\d
       |.*/Net-Ifconfig-Wrappen-\d
