@@ -204,6 +204,7 @@ match:
       |.*/Net-LDAPapi-\d
       |.*/Net-Partty-Screen-\d
       |.*/Newsletter-\d
+      |.*/Openview-Message-\d
       |.*/PGP-Sign-\d
       |.*/PersistentPerl-\d
       |.*/POE-Component-LaDBI-\d
