@@ -243,6 +243,7 @@ match:
       |.*/DBIx-XMLServer-\d
       |.*/Data-Freezer-\d
       |.*/Flickr-Embed-\d
+      |.*/Hardware-1Wire-HA7Net-\d
       |.*/IO-File-Log-\d
       |.*/IPC-Shareable-\d
       |.*/Log-ErrLogger-\d
