@@ -302,6 +302,7 @@ match:
     ^(?x:
       .*/DJabberd-\d
       |.*/DBD-JDBC-\d
+      |.*/IO-Socket-Socks-Wrapper-\d
       )|
 disabled: 1
 ---
