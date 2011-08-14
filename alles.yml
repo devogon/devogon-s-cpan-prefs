@@ -302,6 +302,7 @@ match:
     ^(?x:
       .*/DJabberd-\d
       |.*/DBD-JDBC-\d
+      |.*/Forks-Super-\d
       )|
 disabled: 1
 ---
