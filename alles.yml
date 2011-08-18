@@ -252,6 +252,7 @@ match:
       |.*/Mac-iTunes-\d
       |.*/Mail-Sender-\d
       |.*/Math-TrulyRandom-\d
+      |.*/MojoX-IO-\d
       |.*/MojoX-Run-\d
       |.*/Net-Curl-Simple-\d
       |.*/Net-Link-\d
