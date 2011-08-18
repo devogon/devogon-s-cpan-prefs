@@ -249,6 +249,7 @@ match:
       |.*/IO-File-Log-\d
       |.*/IPC-Shareable-\d
       |.*/Log-ErrLogger-\d
+      |.*/Lucy-\d
       |.*/Mac-iTunes-\d
       |.*/Mail-Sender-\d
       |.*/Math-TrulyRandom-\d
