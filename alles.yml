@@ -243,6 +243,7 @@ match:
       |.*/DBD-SQLite-Amalgamation-\d
       |.*/DBIx-XMLServer-\d
       |.*/Data-Freezer-\d
+      |.*/File-Fetch-\d
       |.*/Flickr-Embed-\d
       |.*/Hardware-1Wire-HA7Net-\d
       |.*/HTTP-ProxySelector-Persistent-\d
