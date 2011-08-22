@@ -216,7 +216,6 @@ match:
       |.*/Test-WWW-Mechanize-Catalyst-\d
       |.*/TextLinkAds-\d
       |.*/UDPM-\d
-      |.*/WAIT-\d
       |.*/XAO-Indexer-\d
       |.*/XML-API-WIX2-\d
       |.*/XSDSQL_\d
@@ -314,4 +313,15 @@ match:
 test:
   expect:
     - "Press Enter to quit"
+    - "\n"
+---
+match:
+  distribution: "/WAIT-\d"
+pl:
+  expect:
+    - "\QWAIT database directory?
+    - "/tmp\n"
+    - "\QPath|[+—]number"
+    - "q\n"
+    - "\Qpager"
     - "\n"
