@@ -178,7 +178,6 @@ match:
       |.*/DBIx-MyParse-\d
       |.*/DBIx-Password-\d
       |.*/DBIx-Recordset-\d
-      |.*/DBIx-SQLEngine-\d
       |.*/DateTime-LazyInit-\d
       |.*/DbFramework-\d                   # fix this later after install of database on server
       |.*/EZDBI-\d
@@ -324,4 +323,11 @@ pl:
     - "\QPath|[+—]number"
     - "q\n"
     - "\Qpager"
+    - "\n"
+---
+match:
+  distribution: "/DBIx-SQLEngine-\d"
+pl:
+  expect:
+    - "\QDo you want to define a list of DSNs to test against"
     - "\n"
