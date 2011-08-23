@@ -302,6 +302,7 @@ match:
   distribution: |
     ^(?x:
       .*/DJabberd-\d
+      |.*/DJabberd-Authen-DBI-\d
       |.*/DBD-JDBC-\d
       |.*/Forks-Super-\d
       )|
