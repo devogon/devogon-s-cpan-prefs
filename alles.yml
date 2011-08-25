@@ -319,7 +319,7 @@ match:
   distribution: "/WAIT-\d"
 pl:
   expect:
-    - "\QWAIT database directory?
+    - "\QWAIT database directory?"
     - "/tmp\n"
     - "\QPath|[+—]number"
     - "q\n"
